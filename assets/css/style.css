@@ -1,0 +1,111 @@
+* {
+    /*outline: 3px solid limegreen !important;
+    background: rgba(0, 151, 0, 0.1) !important;*/
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+section div {
+    overflow: hidden;
+}
+
+.title {
+    display: block;
+}
+
+.container {
+    display: inline-block;
+    border-left: 10px solid red;
+    padding-left: 1%;
+    margin-left: 2%;
+    float: none;
+    overflow: hidden;
+    /*border-top: 10px solid red;*/
+}
+
+header {
+    height: 200px;
+    padding: 20px;
+    background-color: magenta;
+}
+
+header h1 {
+    margin-left: 2%;
+    display: inline-block;
+    font-size: 64px;
+}
+
+header nav {
+    width: 50%;
+    margin-left: 25%;
+    float: right;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+header nav ul {
+    width: auto;
+}
+
+header nav ul li {
+    font-size: 36px;
+    display: inline-block;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-right: 5%;
+    margin-bottom: 10px;
+    border-left: 5px solid lime;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+main section {
+    margin-bottom: 5%;
+}
+
+.banner {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://pbs.twimg.com/profile_banners/49759787/1611188182/1500x500");
+    background-size: cover;
+    background-position: center;
+}
+
+main h2 {
+    display: inline;
+    float: left;
+    font-size: 56px;
+    margin-bottom: 1%;
+    width: auto;
+}
+
+div > p {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    line-height: 1.5;
+
+}
+
+footer {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li{
+        display: block;
+    }
+}
