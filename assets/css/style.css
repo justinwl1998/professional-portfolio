@@ -138,20 +138,6 @@ section .container img {
     max-width: 100%;
 }
 
-.grid3 {
-    display: flex;
-    grid-template-columns: 1fr 8fr;
-    grid-gap: 5px;
-    margin-bottom: 50px;
-}
-
-.grid3 .info {
-    text-align: center;
-    width: fit-content;
-    height: auto;
-    margin: 0 auto;
-}
-
 .grid1 .info .links {
     text-align: center;
 }
