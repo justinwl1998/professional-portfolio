@@ -13,3 +13,5 @@ The website contains an About, Works and Contact Tnfo section, all while having 
 * Any modern, supported internet browser
 
 ## Preview of Website
+
+![Website preview](/assets/images/site_preview.gif)
