@@ -15,3 +15,11 @@ The website contains an About, Works and Contact Tnfo section, all while having 
 ## Preview of Website
 
 ![Website preview](/assets/images/site_preview.gif)
+
+
+## Author
+
+Created by Justin Liu.
+
+## Link to live URL:
+https://justinwl1998.github.io/professional-portfolio/
